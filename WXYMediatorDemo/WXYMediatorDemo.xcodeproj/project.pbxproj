@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C269C17B1D220724008F879A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C269C17A1D220724008F879A /* main.m */; };
+		C269C17E1D220724008F879A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C269C17D1D220724008F879A /* AppDelegate.m */; };
+		C269C1811D220724008F879A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C269C1801D220724008F879A /* ViewController.m */; };
+		C269C1841D220724008F879A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C269C1821D220724008F879A /* Main.storyboard */; };
+		C269C1861D220724008F879A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C269C1851D220724008F879A /* Assets.xcassets */; };
+		C269C1891D220724008F879A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C269C1871D220724008F879A /* LaunchScreen.storyboard */; };
+		C269C1931D220747008F879A /* WXYMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = C269C1921D220747008F879A /* WXYMediator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C269C1761D220724008F879A /* WXYMediatorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WXYMediatorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C269C17A1D220724008F879A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C269C17C1D220724008F879A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C269C17D1D220724008F879A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C269C17F1D220724008F879A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C269C1801D220724008F879A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C269C1831D220724008F879A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C269C1851D220724008F879A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C269C1881D220724008F879A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C269C18A1D220724008F879A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C269C1911D220747008F879A /* WXYMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXYMediator.h; sourceTree = "<group>"; };
+		C269C1921D220747008F879A /* WXYMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXYMediator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C269C1731D220724008F879A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C269C16D1D220724008F879A = {
+			isa = PBXGroup;
+			children = (
+				C269C1901D220747008F879A /* WXYMediator */,
+				C269C1781D220724008F879A /* WXYMediatorDemo */,
+				C269C1771D220724008F879A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C269C1771D220724008F879A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C269C1761D220724008F879A /* WXYMediatorDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C269C1781D220724008F879A /* WXYMediatorDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C269C17C1D220724008F879A /* AppDelegate.h */,
+				C269C17D1D220724008F879A /* AppDelegate.m */,
+				C269C17F1D220724008F879A /* ViewController.h */,
+				C269C1801D220724008F879A /* ViewController.m */,
+				C269C1821D220724008F879A /* Main.storyboard */,
+				C269C1851D220724008F879A /* Assets.xcassets */,
+				C269C1871D220724008F879A /* LaunchScreen.storyboard */,
+				C269C18A1D220724008F879A /* Info.plist */,
+				C269C1791D220724008F879A /* Supporting Files */,
+			);
+			path = WXYMediatorDemo;
+			sourceTree = "<group>";
+		};
+		C269C1791D220724008F879A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C269C17A1D220724008F879A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C269C1901D220747008F879A /* WXYMediator */ = {
+			isa = PBXGroup;
+			children = (
+				C269C1911D220747008F879A /* WXYMediator.h */,
+				C269C1921D220747008F879A /* WXYMediator.m */,
+			);
+			name = WXYMediator;
+			path = ../WXYMediator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C269C1751D220724008F879A /* WXYMediatorDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C269C18D1D220724008F879A /* Build configuration list for PBXNativeTarget "WXYMediatorDemo" */;
+			buildPhases = (
+				C269C1721D220724008F879A /* Sources */,
+				C269C1731D220724008F879A /* Frameworks */,
+				C269C1741D220724008F879A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WXYMediatorDemo;
+			productName = WXYMediatorDemo;
+			productReference = C269C1761D220724008F879A /* WXYMediatorDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C269C16E1D220724008F879A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = wuxu;
+				TargetAttributes = {
+					C269C1751D220724008F879A = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = YEH9R98X32;
+						DevelopmentTeamName = "旭 吴 (Personal Team)";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C269C1711D220724008F879A /* Build configuration list for PBXProject "WXYMediatorDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C269C16D1D220724008F879A;
+			productRefGroup = C269C1771D220724008F879A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C269C1751D220724008F879A /* WXYMediatorDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C269C1741D220724008F879A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C269C1891D220724008F879A /* LaunchScreen.storyboard in Resources */,
+				C269C1861D220724008F879A /* Assets.xcassets in Resources */,
+				C269C1841D220724008F879A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C269C1721D220724008F879A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C269C1931D220747008F879A /* WXYMediator.m in Sources */,
+				C269C1811D220724008F879A /* ViewController.m in Sources */,
+				C269C17E1D220724008F879A /* AppDelegate.m in Sources */,
+				C269C17B1D220724008F879A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C269C1821D220724008F879A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C269C1831D220724008F879A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C269C1871D220724008F879A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C269C1881D220724008F879A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C269C18B1D220724008F879A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C269C18C1D220724008F879A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C269C18E1D220724008F879A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WXYMediatorDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wuxu.WXYMediatorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C269C18F1D220724008F879A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WXYMediatorDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wuxu.WXYMediatorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C269C1711D220724008F879A /* Build configuration list for PBXProject "WXYMediatorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C269C18B1D220724008F879A /* Debug */,
+				C269C18C1D220724008F879A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C269C18D1D220724008F879A /* Build configuration list for PBXNativeTarget "WXYMediatorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C269C18E1D220724008F879A /* Debug */,
+				C269C18F1D220724008F879A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C269C16E1D220724008F879A /* Project object */;
+}
