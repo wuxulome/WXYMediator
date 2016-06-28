@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "WXYMediator"
-  s.version          = "0.1.0"
+  s.version          = "0.0.1"
   s.summary          = "A Component Framework"
 
   s.description      = "A Component Framework"

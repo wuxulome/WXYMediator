@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C2584F101D2270FC00B933AA /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = C2584F0D1D2270FC00B933AA /* LICENSE */; };
+		C2584F111D2270FC00B933AA /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = C2584F0E1D2270FC00B933AA /* README.md */; };
+		C2584F121D2270FC00B933AA /* WXYMediator.podspec in Resources */ = {isa = PBXBuildFile; fileRef = C2584F0F1D2270FC00B933AA /* WXYMediator.podspec */; };
 		C269C17B1D220724008F879A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C269C17A1D220724008F879A /* main.m */; };
 		C269C17E1D220724008F879A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C269C17D1D220724008F879A /* AppDelegate.m */; };
 		C269C1811D220724008F879A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C269C1801D220724008F879A /* ViewController.m */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C2584F0D1D2270FC00B933AA /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C2584F0E1D2270FC00B933AA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C2584F0F1D2270FC00B933AA /* WXYMediator.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = WXYMediator.podspec; path = ../WXYMediator.podspec; sourceTree = "<group>"; };
 		C269C1761D220724008F879A /* WXYMediatorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WXYMediatorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C269C17A1D220724008F879A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C269C17C1D220724008F879A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -45,6 +51,9 @@
 		C269C16D1D220724008F879A = {
 			isa = PBXGroup;
 			children = (
+				C2584F0D1D2270FC00B933AA /* LICENSE */,
+				C2584F0E1D2270FC00B933AA /* README.md */,
+				C2584F0F1D2270FC00B933AA /* WXYMediator.podspec */,
 				C269C1901D220747008F879A /* WXYMediator */,
 				C269C1781D220724008F879A /* WXYMediatorDemo */,
 				C269C1771D220724008F879A /* Products */,
@@ -155,6 +164,8 @@
 			files = (
 				C269C1891D220724008F879A /* LaunchScreen.storyboard in Resources */,
 				C269C1861D220724008F879A /* Assets.xcassets in Resources */,
+				C2584F121D2270FC00B933AA /* WXYMediator.podspec in Resources */,
+				C2584F101D2270FC00B933AA /* LICENSE in Resources */,
 				C269C1841D220724008F879A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -168,6 +179,7 @@
 			files = (
 				C269C1931D220747008F879A /* WXYMediator.m in Sources */,
 				C269C1811D220724008F879A /* ViewController.m in Sources */,
+				C2584F111D2270FC00B933AA /* README.md in Sources */,
 				C269C17E1D220724008F879A /* AppDelegate.m in Sources */,
 				C269C17B1D220724008F879A /* main.m in Sources */,
 			);
@@ -322,6 +334,7 @@
 				C269C18F1D220724008F879A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
